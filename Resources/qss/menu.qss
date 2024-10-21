@@ -1,0 +1,31 @@
+QMenu.blackMenu {
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  border-radius: 5px;
+  background-color: rbga(38, 40, 42, 230);
+}
+
+QMenu.blackMenu::separator {
+  height: 2px;
+  margin: 6px 0;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+QMenu.blackMenu::indicator {
+  margin-right: 10px;
+  background-color: transparent;
+}
+
+QMenu.blackMenu::item {
+  color: rgba(255, 255, 255, 1.0);
+  padding: 5px 20px 5px 20px;  /* 上 右 下 左 或 上下 左右 */
+  font-weight: bold;
+  background-color: transparent;
+  text-align: center;
+}
+
+QMenu.blackMenu::item:hover,
+QMenu.blackMenu::item:pressed,
+QMenu.blackMenu::item:selected {
+  background-color: rgba(255, 255, 255, 0.3);
+}
