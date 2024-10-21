@@ -1,0 +1,23 @@
+<!-- 来自https://www.cnblogs.com/Lhh-9999/p/16884584.html -->
+<RCC>
+    <qresource prefix="/img">
+    </qresource>
+
+    <qresource prefix="/ico">
+        <file>Resources/ico/sys_tray_icon.png</file>
+    </qresource>
+
+    <qresource prefix="/gif">
+        <file>Resources/gif/dai_ji.gif</file>
+        <file>Resources/gif/nao_tou.gif</file>
+        <file>Resources/gif/cha_yao.gif</file>
+        <file>Resources/gif/zha_yan.gif</file>
+        <file>Resources/gif/shen_lan_yao.gif</file>
+        <file>Resources/gif/dong_zhang_xi_wang.gif</file>
+    </qresource>
+
+    <qresource prefix="/qss">
+        <file>Resources/qss/menu.qss</file>
+    </qresource>
+
+</RCC>
